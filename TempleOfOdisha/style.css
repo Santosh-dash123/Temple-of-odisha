@@ -1,0 +1,26 @@
+*
+{
+    margin : 0px ;
+    padding : 0px ;
+    box-sizing : border-box ;
+}
+
+/*---------------------------- Second part is start here ----------------------------------------*/
+::selection
+{
+    color : black ;
+    background-color : yellow ;
+}
+::-webkit-scrollbar
+{
+    background-color : aquamarine ;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius : 5px ; 
+    background-color: red  ;
+}
+.form-group input
+{
+    border-color: red !important ;
+}
